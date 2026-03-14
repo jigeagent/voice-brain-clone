@@ -1,0 +1,150 @@
+{
+  "name": "mastermind",
+  "displayName": "问大师 MasterMind",
+  "version": "2.1.0",
+  "description": "大师智慧，授业解惑！Got Questions? Ask MasterMind!",
+  "description": "完整的人物克隆技能，包含音色克隆和大脑克隆两个模块，可克隆任何人的声音和思维风格",
+  "author": "阿中（基于陈鲁豫克隆实战）",
+  "license": "MIT",
+  "keywords": [
+    "voice-clone",
+    "brain-clone",
+    "tts",
+    "ai-clone",
+    "人物克隆",
+    "声音克隆",
+    "风格还原"
+  ],
+  "category": "multimedia",
+  "tags": [
+    "audio",
+    "research",
+    "clone",
+    "tts",
+    "voice"
+  ],
+  "requirements": {
+    "python": ">=3.8",
+    "openclaw": ">=2.7",
+    "dependencies": [
+      "requests",
+      "ffmpeg"
+    ],
+    "apiKeys": [
+      {
+        "name": "NOIZ_API_KEY",
+        "description": "Noiz TTS API key",
+        "url": "https://developers.noiz.ai/api-keys"
+      }
+    ]
+  },
+  "files": {
+    "skill": "SKILL.md",
+    "quickStart": "QUICK-START.md",
+    "templates": [
+      "templates/ability-library.json",
+      "templates/communication-guide.md",
+      "templates/quick-reference.md"
+    ]
+  },
+  "features": [
+    "音色克隆（Noiz API）",
+    "大脑克隆（深度研究）",
+    "风格还原（语言模式 + 思维框架）",
+    "实战应用（语音交流 + 内容生成）"
+  ],
+  "useCases": [
+    "战略沟通（用特定人物风格交流）",
+    "播客制作（生成特定人物语音）",
+    "视频配音（克隆声音配音）",
+    "访谈模拟（模拟访谈风格）",
+    "教育传承（保存名师风格）"
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "准备",
+        "duration": "30 分钟",
+        "tasks": [
+          "确定目标人物",
+          "搜集参考音频",
+          "搜集公开资料",
+          "创建项目文件夹"
+        ]
+      },
+      {
+        "name": "音色克隆",
+        "duration": "60 分钟",
+        "tasks": [
+          "下载参考音频",
+          "截取 30 秒片段",
+          "配置 Noiz API",
+          "测试声音克隆",
+          "验证声音质量"
+        ]
+      },
+      {
+        "name": "大脑克隆",
+        "duration": "180 分钟",
+        "tasks": [
+          "分析语言模式",
+          "整理思维框架",
+          "提炼价值观",
+          "编写能力库",
+          "编写交流指南"
+        ]
+      },
+      {
+        "name": "整合验证",
+        "duration": "60 分钟",
+        "tasks": [
+          "整合音色和大脑",
+          "测试交流效果",
+          "验证还原度",
+          "编写交付报告"
+        ]
+      },
+      {
+        "name": "交付使用",
+        "duration": "30 分钟",
+        "tasks": [
+          "交付所有文件",
+          "演示使用方法",
+          "收集反馈"
+        ]
+      }
+    ],
+    "totalDuration": "6 小时"
+  },
+  "qualityStandards": {
+    "voice": {
+      "excellent": "95%+ 相似度",
+      "good": "90-95% 相似度",
+      "acceptable": "85-90% 相似度",
+      "reject": "<85% 相似度"
+    },
+    "brain": {
+      "skills": "6+ 核心技能",
+      "examples": "每技能 5+ 案例",
+      "guide": "完整指南 + 参考卡",
+      "authenticity": "多源资料验证"
+    }
+  },
+  "legalNotice": {
+    "compliance": [
+      "仅使用公开资料",
+      "仅用于学习交流",
+      "不用于商业欺诈",
+      "不用于冒充真人"
+    ],
+    "ethics": [
+      "明确告知是 AI 克隆",
+      "尊重肖像权",
+      "不用于敏感场景"
+    ]
+  },
+  "createdAt": "2026-03-12T13:57:00+08:00",
+  "updatedAt": "2026-03-12T13:57:00+08:00",
+  "repository": "https://github.com/your-repo/voice-brain-clone",
+  "documentation": "skills/voice-brain-clone/SKILL.md"
+}
