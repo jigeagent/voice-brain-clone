@@ -1,8 +1,8 @@
 # 🎙️ 问大师 MasterMind v2.1
 
-**大师智慧，授业解惑！**
+**大师智慧，没有爹味！**
 
-*Got Questions? Ask MasterMind!*
+*Got Questions? Ask MasterMind - No Preaching, Just Wisdom!*
 
 [![Version](https://img.shields.io/badge/version-2.1.0-blue)](https://clawhub.ai/skills/voice-brain-clone)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
